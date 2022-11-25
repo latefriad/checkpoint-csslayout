@@ -1,3 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    margin: 0px;
+
+}
 nav > h1 {
     padding-left: 100px;
     padding-top: 10px;
@@ -5,11 +14,14 @@ nav > h1 {
     
 }
 #r {
-    text-align: end;
-    padding-right: 50px;
-    text-decoration-line: none;
-    color: white;
-    padding-top: 30px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    width: 300px;
+    gap: 20px;
+    justify-content: end;
+    text-decoration: none;
 }
 .item1 {
     text-align: center;
@@ -45,7 +57,7 @@ nav > h1 {
 #A {
     background: #00ccb1;
     padding: 2em 2em 0;
-    padding right: 100px;
+    padding-right: 100px;
     color: #fff;
     transition: all .2s ease 0s;
     border-radius: 10px;
@@ -66,6 +78,7 @@ nav > h1 {
 }
 .t {
     padding-right: 100px;
+    padding-left: 50px;
     
 }
 #domain-switcher {
@@ -100,26 +113,26 @@ nav > h1 {
         font-weight: 400;
         font-family: Roboto,Arial,sans-serif;
         color: #747474;
-        padding-top: 70px;
+        padding-top: 0px;
         -webkit-font-smoothing: antialiased;
     }
-    section {
+section {
         display: block;
     }
-    main {
+main {
         display: grid;
     }
-    .k {
+.k {
         text-align: center;
         
     }
-    .k > h1 {
+.k > h1 {
         font-size: 2.1428571429em;
         color: #00b39b;
         font-family: Work Sans,Arial,sans-serif;
         justify-content: space-around;
     }
-    .stats__item {
+.stats__item {
         background: #fff;
         border-radius: 5px;
         box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
@@ -128,12 +141,12 @@ nav > h1 {
         padding: 15px;
         font-size: .8125em;
         background-color: #e5faf8;
-         }
-         .join {
+}
+.join {
             text-align: center;
             padding-top: 100px;
-         }
-         input {
+}
+input {
             background-color: rgb(89, 89, 255);
             border: none;
             color: white;
@@ -142,8 +155,9 @@ nav > h1 {
             margin: 4px 2px;
             cursor: pointer;
             background-origin: 20px;
-            border-radius: 10px;
-             }
-             footer {
+            border-radius: 10px; 
+            }
+footer {
                 text-align: center;
-            padding-top: 80px;             }
+            padding-top: 80px;            
+}
